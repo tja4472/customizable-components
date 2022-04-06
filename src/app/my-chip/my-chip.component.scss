@@ -1,13 +1,13 @@
 .my-chip {
-  background: transparent;
-  border: 2px solid #166088;
-  color: #166088;
+  background: var(--chip-background-color, transparent);
+  border: 2px solid var(--chip-border-color, #166088);
+  color: var(--chip-color, #166088);
   border-radius: 25px;
   padding: 10px 20px;
   margin: 5px;
   cursor: pointer;
   &.active {
-    background: #166088;
-    color: #dbe9ee;
+    background: var(--chip-active-background-color, #166088);
+    color: var(--chip-active-color, #dbe9ee);
   }
 }
