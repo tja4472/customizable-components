@@ -3,9 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MyChipsComponent } from './my-chips/my-chips.component';
+import { MyChipComponent } from './my-chip/my-chip.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, MyChipsComponent, MyChipComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   // bootstrap: [AppComponent],
